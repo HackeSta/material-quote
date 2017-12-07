@@ -14,7 +14,7 @@ class MaterialGenerator:
         # used to draw on the new image
         # Now, we'll do the drawing:
         draw.rectangle(((0,0),size), fill=colors.get_random_color()) #fill the background with random material color
-        font = ImageFont.truetype(os.path.join(dir,'fonts/OpenSans-Regular.ttf'),32)  #material font
+        font = ImageFont.truetype(os.path.join(dir,'fonts/OpenSans-Regular.ttf'),320)  #material font
         lines = textwrap.wrap(text, 25) #wraps text to 25 letters
         if author != "":        # add author details only if present
             lines.append(' ')
@@ -29,7 +29,7 @@ class MaterialGenerator:
 
 
         #draw copyright
-        font = ImageFont.truetype(os.path.join(dir,'fonts/OpenSans-Regular.ttf'),22)
+        font = ImageFont.truetype(os.path.join(dir,'fonts/OpenSans-Regular.ttf'),220)
 
         w, h = draw.textsize(COPYRIGHT_TEXT, font=font)
         pos = ((size[0] - w) / 2, size[1] - h)
@@ -39,4 +39,3 @@ class MaterialGenerator:
 
 
         return im
-
