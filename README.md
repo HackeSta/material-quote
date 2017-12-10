@@ -1,10 +1,11 @@
 # social-mqotd  
-![Travis CI build](https://travis-ci.org/HackeSta/social-mqotd.svg?branch=master)  
-A bot which posts a random quote in [Material Design](https://material.io) every day to the following social media sites:   
-* [Twitter Account](https://twitter.com/MaterialQOTD)
-* [Facebook Page](https://www.facebook.com/MaterialQOTD/)
-## Latest Material QOTD (from our latest [Travis CI](https://traivs-ci.org) Build)
-![mqotd_image](https://github.com/HackeSta/social-mqotd/raw/master/data/mqotd_image.jpg)  
+![Travis CI build](https://travis-ci.org/HackeSta/material-quote.svg?branch=master)  
+A bot which posts a random quote in [Material Design](https://material.io) to the following social media sites:   
+* [Twitter Account](https://twitter.com/MaterialQuote)
+* [Facebook Page](https://www.facebook.com/MaterialQuote/)
+* [Instagram Page](https://www.instagram.com/materialquote)
+## Latest Material Quote (from our latest [Travis CI](https://traivs-ci.org) Build)
+![mqotd_image](https://github.com/HackeSta/material-quote/raw/master/data/mqotd_image.jpg)  
 
 ## Contributing
 
@@ -16,4 +17,4 @@ A bot which posts a random quote in [Material Design](https://material.io) every
 
 ## Licence
 
-Code released under [the MIT license](https://github.com/hackesta/social-mqotd/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/hackesta/material-quote/blob/master/LICENSE).
