@@ -4,7 +4,7 @@ A bot which posts a random quote in [Material Design](https://material.io) every
 * [Twitter Account](https://twitter.com/MaterialQOTD)
 * [Facebook Page](https://www.facebook.com/MaterialQOTD/)
 ## Latest Material QOTD (from our latest [Travis CI](https://traivs-ci.org) Build)
-![mqotd_image](https://github.com/HackeSta/social-mqotd/raw/master/data/mqotd_image.png)  
+![mqotd_image](https://github.com/HackeSta/social-mqotd/raw/master/data/mqotd_image.jpg)  
 
 ## Contributing
 

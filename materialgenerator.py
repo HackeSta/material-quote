@@ -15,7 +15,7 @@ class MaterialGenerator:
         # Now, we'll do the drawing:
         draw.rectangle(((0,0),size), fill=colors.get_random_color()) #fill the background with random material color
         font = ImageFont.truetype(os.path.join(dir,'fonts/OpenSans-Regular.ttf'),320)  #material font
-        lines = textwrap.wrap(text, 25) #wraps text to 25 letters
+        lines = textwrap.wrap(text, 20) #wraps text to 20 letters
         if author != "":        # add author details only if present
             lines.append(' ')
             lines.append('- ' + author)
@@ -39,3 +39,4 @@ class MaterialGenerator:
 
 
         return im
+
