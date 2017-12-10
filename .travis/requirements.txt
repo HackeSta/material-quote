@@ -1,3 +1,0 @@
-twython
-Pillow
-pycurl
