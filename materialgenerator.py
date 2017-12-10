@@ -7,7 +7,7 @@ class MaterialGenerator:
 
 
     def draw_image(self, text,author, size):
-        COPYRIGHT_TEXT = "@MaterialQOTD"
+        COPYRIGHT_TEXT = "@MaterialQuote"
         dir = os.path.dirname(__file__)
         im = Image.new('RGB', size)  # create the image
         draw = ImageDraw.Draw(im)  # create a drawing object that is
