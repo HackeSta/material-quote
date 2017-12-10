@@ -25,13 +25,12 @@ def get_random_color():
 class MaterialGenerator:
 
     def draw_image(self, text, author, size):
-        COPYRIGHT_TEXT = "@PUTlN2"
         dir = os.path.dirname(__file__)
         im = Image.new('RGB', size)
         draw = ImageDraw.Draw(im)
         draw.rectangle(((0, 0), size), fill=get_random_color())
         font = ImageFont.truetype(os.path.join(
-            dir, 'fonts/DeFonarts-Bold.otf'), 280)
+            dir, 'fonts/OpenSans-Regular.ttf'), 280)
         lines = textwrap.wrap(text, 20)
         if author != "":
             lines.append(' ')

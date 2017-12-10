@@ -2,7 +2,7 @@
 
 Bot to generate Quotes in Material Design and post to Twitter, Facebook and Instagram.
 
-![Screenshot](https://raw.githubusercontent.com/impshum/material-quote/master/data/image.jpg)
+![Screenshot](https://raw.githubusercontent.com/hackesta/material-quote/master/data/image.jpg)
 
 ### Install dependencies
 
