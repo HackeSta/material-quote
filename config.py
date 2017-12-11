@@ -11,6 +11,8 @@ failbork = {
 instauser = 'XXXXXXXX'
 instapass = 'XXXXXXXX'
 
+imgurid = 'XXXXXXXX'
+
 title = 'Quote Of The Day'
 tags = ['#quotes', '#love', '#life']
 

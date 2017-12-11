@@ -1,6 +1,6 @@
 # Material Quote Bot
 
-Bot to generate Quotes in Material Design and post to Twitter, Facebook and Instagram.
+Bot to generate Quotes in Material Design and post to Twitter, Facebook, Instagram and Imgur.
 
 ![Screenshot](https://raw.githubusercontent.com/hackesta/material-quote/master/data/image.jpg)
 
